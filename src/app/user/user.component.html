@@ -1,0 +1,6 @@
+  @for (user of userData(); track user.id) {
+    <p>{{ user.name }}</p>
+  } @empty {
+    <p>Is EMPTY...</p>
+  }
+
